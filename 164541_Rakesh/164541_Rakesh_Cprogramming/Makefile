@@ -2,8 +2,8 @@
 CC = gcc
 LDFLAGS = -g -lm
 
-chapter = 164543_Gopi_chapter2
-program = 164543_Gopi_ex2-1
+chapter = 164541_Rakesh_chapter2
+program = 164541_Rakesh_ex2-1
 CFLAGS = $(chapter)/$(program)
 
 

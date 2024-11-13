@@ -1,0 +1,25 @@
+# Variables
+CC = gcc
+CFLAGS = -Wall -g
+LIB_NAME = libmylib.so
+PROG = main-dynamic
+
+# Targets
+all: $(LIB_NAME) $(PROG)
+
+# Build shared library
+$(LIB_NAME): hello.o here.o bye.o
+	$(CC) -shared -o $(LIB_NAME) hello.o here.o bye.o
+
+# Build executable
+$(PROG): main.o $(LIB_NAME)
+	$(CC) main.o -L. -lmylib -o $(PROG)
+
+# Compile source files to object files
+%.o: %.c
+	$(CC) $(CFLAGS) -c $<
+
+# Clean up
+clean:
+	rm -f *.o $(LIB_NAME) $(PROG)
+

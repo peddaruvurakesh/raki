@@ -1,0 +1,21 @@
+# Step 1: Set variables
+CC = gcc
+CFLAGS = -g -Wall -ansi
+MYLIB = mylib.a
+
+# Step 2: Define targets and rules
+all: main-static
+
+main-static: main.o $(MYLIB)
+	$(CC) main.o $(MYLIB) -o main-static
+
+$(MYLIB): hello.o here.o bye.o
+	ar rcs $(MYLIB) hello.o here.o bye.o
+
+%.o: %.c mylib.h
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Step 3: Clean up
+clean:
+	rm -f *.o $(MYLIB) main-static
+

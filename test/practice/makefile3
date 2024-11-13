@@ -1,0 +1,15 @@
+SRC = ex1.c ex2.c ex3.c
+
+OBJ = $(SRC:.c=.o)
+
+EXEC = $(OBJ:.o=)
+
+all :$(EXEC) $(OBJ)
+
+%:%.o
+	gcc $< -o $@
+
+%.o: %.c 
+	gcc  -c $<
+clean :
+	rm -rf  *.o ex?

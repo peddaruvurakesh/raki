@@ -1,0 +1,3 @@
+Name: rakesh Last name: erri Age: 22 Salary: 10000
+Name: suri Last name: predda Age: 21 Salary: 15000
+Name: gopi Last name: dasu Age: 22 Salary: 10000

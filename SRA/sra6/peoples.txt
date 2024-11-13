@@ -1,0 +1,4 @@
+Name: rakesh	Age: 22	Salary: 10000
+Name: suri	Age: 21	Salary: 15000
+Name: gopi	Age: 22	Salary: 10000
+

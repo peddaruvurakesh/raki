@@ -1,0 +1,29 @@
+Name: rakesh Last name: erri Age: 22 Salary: 10000 Street: jhgjf Number: 36742 Postal code: 8374 State: jdjfj
+Name: suri Last name: predda Age: 21 Salary: 15000 Street: hjhbhj Number: 763 Postal code: 987 State: hdj
+Name: gopi Last name: dasu Age: 22 Salary: 10000 Street: kjb Number: 897 Postal code: 7 State: hv
+Name: rakesh Last name: peddaruvu Age: 22 Salary: 10000 Street: jyg Number: 897 Postal code: 897 State: jh
+Name: rakesh Last name: erri Age: 22 Salary: 10000 Street: rarrar Number: 76 Postal code: 76 State: 76
+Name: suri Last name: predda Age: 21 Salary: 15000 Street: rara Number: 98 Postal code: 8 State: rahajjs
+Name: gopi Last name: dasu Age: 22 Salary: 10000 Street: gghd Number: 89 Postal code: 897 State: ghd
+Name: rakesh Last name: peddaruvu Age: 22 Salary: 10000 Street: hg Number: 98 Postal code: 9 State: h
+Name: rakesh 	
+Last name: erri	
+ Age: 22 Salary: 10000	
+ Street: rakesh	
+ Number: 56	
+ Postal code: 56	
+ State: rash	
+Name: suri 	
+Last name: predda	
+ Age: 21 Salary: 15000	
+ Street: rad	
+ Number: 56	
+ Postal code: 56	
+ State: 56	
+Name: gopi 	
+Last name: dasu	
+ Age: 22 Salary: 10000	
+ Street: 56	
+ Number: 8	
+ Postal code: 52	
+ State: gh	
